@@ -1,0 +1,192 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "whyUs": "Pourquoi Nous",
+    "team": "Équipe",
+    "reviews": "Avis",
+    "faq": "FAQ",
+    "appointment": "Rendez-vous",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Votre Sourire, Notre Priorité",
+    "subtitle": "Soins dentaires professionnels à Alger — modernes, abordables et adaptés à toute la famille.",
+    "cta1": "Prendre Rendez-vous",
+    "cta2": "Nos Services"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des soins dentaires complets pour toute la famille",
+    "cleaning": {
+      "title": "Nettoyage Dentaire",
+      "desc": "Détartrage et polissage professionnels pour une hygiène bucco-dentaire optimale."
+    },
+    "whitening": {
+      "title": "Blanchiment",
+      "desc": "Retrouvez un sourire éclatant avec notre traitement de blanchiment sûr et efficace."
+    },
+    "implants": {
+      "title": "Implants Dentaires",
+      "desc": "Solutions durables pour remplacer les dents manquantes avec des implants de haute qualité."
+    },
+    "ortho": {
+      "title": "Orthodontie",
+      "desc": "Aligneurs transparents et appareils orthodontiques pour un sourire parfaitement aligné."
+    },
+    "crowns": {
+      "title": "Couronnes & Bridges",
+      "desc": "Restaurations esthétiques et fonctionnelles pour vos dents endommagées."
+    },
+    "surgery": {
+      "title": "Chirurgie Buccale",
+      "desc": "Extractions, greffes osseuses et autres interventions chirurgicales avancées."
+    }
+  },
+  "whyUs": {
+    "title": "Pourquoi Choisir SmileCare Dental",
+    "subtitle": "L'excellence en soins dentaires à Alger",
+    "items": [
+      {
+        "title": "Équipe Qualifiée",
+        "desc": "Des dentistes expérimentés et passionnés, formés aux dernières techniques."
+      },
+      {
+        "title": "Technologie Avancée",
+        "desc": "Équipements de pointe pour des diagnostics précis et des traitements confortables."
+      },
+      {
+        "title": "Prix Abordables",
+        "desc": "Des soins de qualité à des prix transparents et accessibles."
+      },
+      {
+        "title": "Ambiance Confortable",
+        "desc": "Un cadre apaisant pour vous mettre à l'aise dès votre arrivée."
+      },
+      {
+        "title": "Hygiène Rigoureuse",
+        "desc": "Des normes de stérilisation strictes pour votre sécurité."
+      },
+      {
+        "title": "Suivi Personnalisé",
+        "desc": "Un accompagnement sur mesure avant, pendant et après votre traitement."
+      }
+    ]
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "subtitle": "Des professionnels dévoués à votre sourire",
+    "members": [
+      {
+        "name": "Dr. Fatima Benali",
+        "role": "Chirurgien-Dentiste",
+        "bio": "Plus de 15 ans d'expérience en chirurgie dentaire et implants."
+      },
+      {
+        "name": "Dr. Ahmed Mansouri",
+        "role": "Orthodontiste",
+        "bio": "Spécialiste en orthodontie et aligneurs transparents."
+      },
+      {
+        "name": "Dr. Leila Kaci",
+        "role": "Parodontologue",
+        "bio": "Experte en traitement des gencives et prévention."
+      },
+      {
+        "name": "Dr. Karim Saïdi",
+        "role": "Dentiste Pédiatrique",
+        "bio": "Soins doux et adaptés aux enfants de tous âges."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Ce Que Disent Nos Patients",
+    "subtitle": "Des sourires transformés, des vies changées",
+    "items": [
+      {
+        "name": "Sofia L.",
+        "text": "Une expérience exceptionnelle ! L'équipe est professionnelle et bienveillante. Je recommande vivement.",
+        "rating": 5
+      },
+      {
+        "name": "Rachid M.",
+        "text": "Le meilleur cabinet dentaire d'Alger. Implants parfaits et suivi impeccable.",
+        "rating": 5
+      },
+      {
+        "name": "Nadia K.",
+        "text": "Mon fils avait peur du dentiste, mais le Dr. Saïdi l'a mis à l'aise dès la première visite.",
+        "rating": 5
+      },
+      {
+        "name": "Yacine B.",
+        "text": "Blanchiment super efficace. Résultats visibles dès la première séance. Merci à toute l'équipe !",
+        "rating": 5
+      },
+      {
+        "name": "Amel T.",
+        "text": "Cabinet moderne, propre et avec des équipements de pointe. Je suis très satisfaite.",
+        "rating": 4
+      },
+      {
+        "name": "Hichem D.",
+        "text": "Orthodontiste génial. Mes aligneurs transparents ont transformé mon sourire en 8 mois seulement.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir avant votre visite",
+    "items": [
+      {
+        "q": "À quelle fréquence dois-je consulter le dentiste ?",
+        "a": "Nous recommandons une visite de contrôle tous les 6 mois pour un examen de routine et un nettoyage professionnel."
+      },
+      {
+        "q": "Le blanchiment dentaire est-il douloureux ?",
+        "a": "Le blanchiment professionnel est généralement indolore. Une sensibilité temporaire peut survenir mais disparaît rapidement."
+      },
+      {
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "Nous acceptons les espèces, les cartes bancaires et proposons des facilités de paiement pour les traitements importants."
+      },
+      {
+        "q": "Combien de temps dure un traitement orthodontique ?",
+        "a": "La durée varie selon les cas, mais un traitement orthodontique standard dure entre 12 et 24 mois."
+      },
+      {
+        "q": "Proposez-vous des soins d'urgence ?",
+        "a": "Oui, nous réservons des créneaux d'urgence chaque jour pour les patients souffrant de douleurs aiguës."
+      }
+    ]
+  },
+  "appointment": {
+    "title": "Demande de Rendez-vous",
+    "subtitle": "Nous vous contacterons dans les plus brefs délais pour confirmer votre rendez-vous",
+    "nameLabel": "Nom complet",
+    "namePlaceholder": "Votre nom",
+    "emailLabel": "Email",
+    "emailPlaceholder": "votre@email.com",
+    "phoneLabel": "Téléphone",
+    "phonePlaceholder": "Votre numéro",
+    "dateLabel": "Date souhaitée",
+    "messageLabel": "Message (optionnel)",
+    "messagePlaceholder": "Décrivez brièvement votre besoin...",
+    "submit": "Envoyer la Demande",
+    "sending": "Envoi en cours...",
+    "success": "Votre demande a été envoyée avec succès. Nous vous contacterons bientôt.",
+    "error": "Une erreur est survenue. Veuillez réessayer."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes là pour répondre à toutes vos questions",
+    "messenger": "Messenger",
+    "email": "Email",
+    "location": "Localisation"
+  },
+  "footer": {
+    "rights": "© 2026 SmileCare Dental. Tous droits réservés.",
+    "builtBy": "Réalisé par 3iik Studio"
+  }
+}

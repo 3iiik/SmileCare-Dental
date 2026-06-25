@@ -1,0 +1,192 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "whyUs": "Why Us",
+    "team": "Team",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "appointment": "Appointment",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your Smile, Our Priority",
+    "subtitle": "Professional dental care in Algiers — modern, affordable, and family-friendly.",
+    "cta1": "Book Appointment",
+    "cta2": "Our Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive dental care for the whole family",
+    "cleaning": {
+      "title": "Dental Cleaning",
+      "desc": "Professional scaling and polishing for optimal oral hygiene."
+    },
+    "whitening": {
+      "title": "Teeth Whitening",
+      "desc": "Get a brighter smile with our safe and effective whitening treatment."
+    },
+    "implants": {
+      "title": "Dental Implants",
+      "desc": "Long-lasting solutions for missing teeth with high-quality implants."
+    },
+    "ortho": {
+      "title": "Orthodontics",
+      "desc": "Clear aligners and braces for a perfectly aligned smile."
+    },
+    "crowns": {
+      "title": "Crowns & Bridges",
+      "desc": "Aesthetic and functional restorations for damaged teeth."
+    },
+    "surgery": {
+      "title": "Oral Surgery",
+      "desc": "Extractions, bone grafts, and other advanced surgical procedures."
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose SmileCare Dental",
+    "subtitle": "Excellence in dental care in Algiers",
+    "items": [
+      {
+        "title": "Qualified Team",
+        "desc": "Experienced and passionate dentists trained in the latest techniques."
+      },
+      {
+        "title": "Advanced Technology",
+        "desc": "State-of-the-art equipment for precise diagnosis and comfortable treatments."
+      },
+      {
+        "title": "Affordable Prices",
+        "desc": "Quality care at transparent and accessible prices."
+      },
+      {
+        "title": "Comfortable Atmosphere",
+        "desc": "A soothing environment to put you at ease from the moment you arrive."
+      },
+      {
+        "title": "Rigorous Hygiene",
+        "desc": "Strict sterilization standards for your safety."
+      },
+      {
+        "title": "Personalized Follow-up",
+        "desc": "Tailored support before, during, and after your treatment."
+      }
+    ]
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Professionals dedicated to your smile",
+    "members": [
+      {
+        "name": "Dr. Fatima Benali",
+        "role": "Dental Surgeon",
+        "bio": "Over 15 years of experience in dental surgery and implants."
+      },
+      {
+        "name": "Dr. Ahmed Mansouri",
+        "role": "Orthodontist",
+        "bio": "Specialist in orthodontics and clear aligners."
+      },
+      {
+        "name": "Dr. Leila Kaci",
+        "role": "Periodontist",
+        "bio": "Expert in gum treatment and prevention."
+      },
+      {
+        "name": "Dr. Karim Saïdi",
+        "role": "Pediatric Dentist",
+        "bio": "Gentle care adapted for children of all ages."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "What Our Patients Say",
+    "subtitle": "Transformed smiles, changed lives",
+    "items": [
+      {
+        "name": "Sofia L.",
+        "text": "An exceptional experience! The team is professional and caring. Highly recommended.",
+        "rating": 5
+      },
+      {
+        "name": "Rachid M.",
+        "text": "The best dental clinic in Algiers. Perfect implants and impeccable follow-up.",
+        "rating": 5
+      },
+      {
+        "name": "Nadia K.",
+        "text": "My son was afraid of the dentist, but Dr. Saïdi made him feel comfortable from the first visit.",
+        "rating": 5
+      },
+      {
+        "name": "Yacine B.",
+        "text": "Very effective whitening. Visible results from the first session. Thanks to the whole team!",
+        "rating": 5
+      },
+      {
+        "name": "Amel T.",
+        "text": "Modern, clean clinic with state-of-the-art equipment. I'm very satisfied.",
+        "rating": 4
+      },
+      {
+        "name": "Hichem D.",
+        "text": "Amazing orthodontist. My clear aligners transformed my smile in just 8 months.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know before your visit",
+    "items": [
+      {
+        "q": "How often should I visit the dentist?",
+        "a": "We recommend a check-up every 6 months for a routine examination and professional cleaning."
+      },
+      {
+        "q": "Is teeth whitening painful?",
+        "a": "Professional whitening is generally painless. Temporary sensitivity may occur but fades quickly."
+      },
+      {
+        "q": "What payment methods do you accept?",
+        "a": "We accept cash, credit cards, and offer payment plans for major treatments."
+      },
+      {
+        "q": "How long does orthodontic treatment take?",
+        "a": "Duration varies by case, but standard orthodontic treatment takes between 12 and 24 months."
+      },
+      {
+        "q": "Do you offer emergency care?",
+        "a": "Yes, we reserve emergency slots every day for patients with acute pain."
+      }
+    ]
+  },
+  "appointment": {
+    "title": "Request an Appointment",
+    "subtitle": "We will contact you promptly to confirm your appointment",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "Your phone number",
+    "dateLabel": "Preferred Date",
+    "messageLabel": "Message (optional)",
+    "messagePlaceholder": "Briefly describe your needs...",
+    "submit": "Send Request",
+    "sending": "Sending...",
+    "success": "Your request has been sent successfully. We will contact you soon.",
+    "error": "An error occurred. Please try again."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to answer all your questions",
+    "messenger": "Messenger",
+    "email": "Email",
+    "location": "Location"
+  },
+  "footer": {
+    "rights": "© 2026 SmileCare Dental. All rights reserved.",
+    "builtBy": "Built by 3iik Studio"
+  }
+}
