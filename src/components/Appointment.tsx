@@ -1,37 +1,9 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Appointment() {
   const { t } = useLanguage();
-  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
-
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setStatus("sending");
-    const form = new FormData(e.currentTarget);
-    const data = {
-      name: form.get("name"),
-      email: form.get("email"),
-      phone: form.get("phone"),
-      date: form.get("date"),
-      message: form.get("message"),
-    };
-
-    try {
-      const res = await fetch("https://formsubmit.co/ajax/3iikStudio@proton.me", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-      if (!res.ok) throw new Error("Failed");
-      setStatus("success");
-      (e.target as HTMLFormElement).reset();
-    } catch {
-      setStatus("error");
-    }
-  };
 
   return (
     <section id="appointment" className="py-20 bg-gradient-to-br from-teal-600 to-cyan-700">
@@ -40,7 +12,7 @@ export default function Appointment() {
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">{t("appointment.title")}</h2>
           <p className="text-lg text-teal-100 max-w-2xl mx-auto">{t("appointment.subtitle")}</p>
         </div>
-        <form onSubmit={handleSubmit} className="bg-white rounded-2xl p-8 shadow-xl space-y-5">
+        <div className="bg-white rounded-2xl p-8 shadow-xl space-y-5">
           <div className="grid sm:grid-cols-2 gap-5">
             <div>
               <label className="block text-sm font-semibold text-slate-700 mb-1">{t("appointment.nameLabel")}</label>
@@ -62,26 +34,14 @@ export default function Appointment() {
               />
             </div>
           </div>
-          <div className="grid sm:grid-cols-2 gap-5">
-            <div>
-              <label className="block text-sm font-semibold text-slate-700 mb-1">{t("appointment.phoneLabel")}</label>
-              <input
-                name="phone"
-                type="tel"
-                required
-                placeholder={t("appointment.phonePlaceholder") as string}
-                className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 outline-none transition-all text-slate-800"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-semibold text-slate-700 mb-1">{t("appointment.dateLabel")}</label>
-              <input
-                name="date"
-                type="date"
-                required
-                className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 outline-none transition-all text-slate-800"
-              />
-            </div>
+          <div>
+            <label className="block text-sm font-semibold text-slate-700 mb-1">{t("appointment.dateLabel")}</label>
+            <input
+              name="date"
+              type="date"
+              required
+              className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 outline-none transition-all text-slate-800"
+            />
           </div>
           <div>
             <label className="block text-sm font-semibold text-slate-700 mb-1">{t("appointment.messageLabel")}</label>
@@ -92,20 +52,15 @@ export default function Appointment() {
               className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 outline-none transition-all text-slate-800 resize-none"
             />
           </div>
-          <button
-            type="submit"
-            disabled={status === "sending"}
-            className="w-full py-3 bg-teal-600 text-white font-bold rounded-xl hover:bg-teal-700 disabled:opacity-60 transition-all text-lg"
+          <a
+            href="https://instagram.com/3iik.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full py-3 bg-teal-600 text-white font-bold rounded-xl hover:bg-teal-700 transition-all text-lg text-center"
           >
-            {status === "sending" ? t("appointment.sending") : t("appointment.submit")}
-          </button>
-          {status === "success" && (
-            <p className="text-green-600 bg-green-50 p-3 rounded-lg text-sm font-medium">{t("appointment.success")}</p>
-          )}
-          {status === "error" && (
-            <p className="text-red-600 bg-red-50 p-3 rounded-lg text-sm font-medium">{t("appointment.error")}</p>
-          )}
-        </form>
+            {t("appointment.submit")}
+          </a>
+        </div>
       </div>
     </section>
   );

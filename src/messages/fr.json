@@ -168,20 +168,15 @@
     "namePlaceholder": "Votre nom",
     "emailLabel": "Email",
     "emailPlaceholder": "votre@email.com",
-    "phoneLabel": "Téléphone",
-    "phonePlaceholder": "Votre numéro",
     "dateLabel": "Date souhaitée",
     "messageLabel": "Message (optionnel)",
     "messagePlaceholder": "Décrivez brièvement votre besoin...",
     "submit": "Envoyer la Demande",
-    "sending": "Envoi en cours...",
-    "success": "Votre demande a été envoyée avec succès. Nous vous contacterons bientôt.",
-    "error": "Une erreur est survenue. Veuillez réessayer."
   },
   "contact": {
     "title": "Contactez-Nous",
     "subtitle": "Nous sommes là pour répondre à toutes vos questions",
-    "messenger": "Messenger",
+    "messenger": "Instagram",
     "email": "Email",
     "location": "Localisation"
   },

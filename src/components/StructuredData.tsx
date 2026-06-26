@@ -5,7 +5,6 @@ export default function StructuredData() {
     name: "SmileCare Dental",
     description: "Professional dental clinic in Algiers offering cleaning, whitening, implants, orthodontics, and more.",
     url: "https://smilecare-dental.com",
-    telephone: "+213-XXX-XXX-XXX",
     email: "3iikStudio@proton.me",
     address: {
       "@type": "PostalAddress",
