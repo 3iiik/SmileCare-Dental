@@ -53,9 +53,8 @@ export default function Appointment() {
             />
           </div>
           <a
-            href="https://instagram.com/3iik.dev"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
+            onClick={(e) => e.preventDefault()}
             className="block w-full py-3 bg-teal-600 text-white font-bold rounded-xl hover:bg-teal-700 transition-all text-lg text-center"
           >
             {t("appointment.submit")}

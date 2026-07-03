@@ -6,13 +6,13 @@
     "team": "Équipe",
     "reviews": "Avis",
     "faq": "FAQ",
-    "appointment": "Rendez-vous",
+    "appointment": "Contacter sur WhatsApp",
     "contact": "Contact"
   },
   "hero": {
     "title": "Votre Sourire, Notre Priorité",
     "subtitle": "Soins dentaires professionnels à Alger — modernes, abordables et adaptés à toute la famille.",
-    "cta1": "Prendre Rendez-vous",
+    "cta1": "Contacter sur WhatsApp",
     "cta2": "Nos Services"
   },
   "services": {
@@ -171,12 +171,12 @@
     "dateLabel": "Date souhaitée",
     "messageLabel": "Message (optionnel)",
     "messagePlaceholder": "Décrivez brièvement votre besoin...",
-    "submit": "Envoyer la Demande"
+    "submit": "Contacter sur WhatsApp"
   },
   "contact": {
     "title": "Contactez-Nous",
     "subtitle": "Nous sommes là pour répondre à toutes vos questions",
-    "messenger": "Instagram",
+    "messenger": "Contacter sur WhatsApp",
     "email": "Email",
     "location": "Localisation"
   },

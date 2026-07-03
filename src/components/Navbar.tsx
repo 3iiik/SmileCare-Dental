@@ -35,7 +35,7 @@ export default function Navbar() {
               </a>
             ))}
             <LanguageSwitcher />
-            <a href="https://instagram.com/3iik.dev" target="_blank" rel="noopener noreferrer" className="bg-teal-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-teal-700 transition-colors">
+            <a href="#" onClick={(e) => e.preventDefault()} className="bg-teal-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-teal-700 transition-colors">
               {t("nav.appointment")}
             </a>
           </div>
@@ -61,7 +61,7 @@ export default function Navbar() {
             <div className="px-3 py-2">
               <LanguageSwitcher />
             </div>
-            <a href="https://instagram.com/3iik.dev" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="block mx-3 mt-2 bg-teal-600 text-white text-center px-4 py-2 rounded-lg text-sm font-semibold">
+            <a href="#" onClick={(e) => { e.preventDefault(); setOpen(false); }} className="block mx-3 mt-2 bg-teal-600 text-white text-center px-4 py-2 rounded-lg text-sm font-semibold">
               {t("nav.appointment")}
             </a>
           </div>

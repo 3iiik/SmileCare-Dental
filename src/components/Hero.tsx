@@ -19,9 +19,8 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://instagram.com/3iik.dev"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={(e) => e.preventDefault()}
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-teal-700 font-bold rounded-xl shadow-lg hover:bg-teal-50 transition-all text-lg"
             >
               {t("hero.cta1")}

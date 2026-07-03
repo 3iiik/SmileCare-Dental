@@ -6,13 +6,13 @@
     "team": "Team",
     "reviews": "Reviews",
     "faq": "FAQ",
-    "appointment": "Appointment",
+    "appointment": "WhatsApp",
     "contact": "Contact"
   },
   "hero": {
     "title": "Your Smile, Our Priority",
     "subtitle": "Professional dental care in Algiers — modern, affordable, and family-friendly.",
-    "cta1": "Book Appointment",
+    "cta1": "WhatsApp",
     "cta2": "Our Services"
   },
   "services": {
@@ -171,12 +171,12 @@
     "dateLabel": "Preferred Date",
     "messageLabel": "Message (optional)",
     "messagePlaceholder": "Briefly describe your needs...",
-    "submit": "Send Request"
+    "submit": "WhatsApp"
   },
   "contact": {
     "title": "Contact Us",
     "subtitle": "We are here to answer all your questions",
-    "messenger": "Instagram",
+    "messenger": "WhatsApp",
     "email": "Email",
     "location": "Location"
   },
