@@ -52,13 +52,13 @@ export default function Appointment() {
               className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 outline-none transition-all text-slate-800 resize-none"
             />
           </div>
-          <a
-            href="#"
+          <button
+            type="button"
             onClick={(e) => e.preventDefault()}
-            className="block w-full py-3 bg-teal-600 text-white font-bold rounded-xl hover:bg-teal-700 transition-all text-lg text-center"
+            className="block w-full py-3 bg-teal-600 text-white font-bold rounded-xl hover:bg-teal-700 transition-all text-lg text-center cursor-default"
           >
             {t("appointment.submit")}
-          </a>
+          </button>
         </div>
       </div>
     </section>

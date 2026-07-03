@@ -18,13 +18,13 @@ export default function Hero() {
             {t("hero.subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a
-              href="#"
+            <button
+              type="button"
               onClick={(e) => e.preventDefault()}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-teal-700 font-bold rounded-xl shadow-lg hover:bg-teal-50 transition-all text-lg"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-teal-700 font-bold rounded-xl shadow-lg hover:bg-teal-50 transition-all text-lg cursor-default"
             >
               {t("hero.cta1")}
-            </a>
+            </button>
             <a
               href="#services"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-white/40 text-white font-semibold rounded-xl hover:bg-white/10 transition-all text-lg"
